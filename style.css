@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+*{
+    /* <uniquifier>: Use a unique and descriptive class name */
+     /* <weight>: Use a value from 400 to 900 */
+      font-family: "Playfair Display", serif;
+      font-style: normal;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+    }
+body{
+    background: linear-gradient(90deg, #f2fa0d, #b3dfb7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+.container{
+    background:#FFD;
+    width: 690px;
+    border-radius: 7px;
+    padding: 30px;
+}
+.wrapper{
+    border: 1px solid #bbb;
+    border-radius: 5px;
+
+}
+
+.wrapper .text-input{
+    display: flex;
+    border-bottom: 1px solid #bbb;
+
+}
+
+.text-input .to-text{
+   border-radius: 0px;
+   border-left: 1px solid #bbb;
+}
+
+.text-input textarea{
+
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background: none;
+    padding: 10px 15px ;
+}
+
+.controls , li, .icons, .icons i{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.controls{
+    list-style: none;
+    padding: 12px 15px;
+}
+.controls .row.from .icons{
+    padding-right: 15px;
+    border-right: 1px solid #bbb;
+}
+.controls .to.from .icons{
+    padding-right: 15px;
+    border-right: 1px solid #bbb;
+}
+
+.controls .icons{
+    width: 38%;
+}
+.controls .icons i{
+    color: #9f9f9f;
+    font-size: 14px;
+    cursor: pointer;
+    width: 50px;
+    justify-content: center;
+
+}
+
+.controls .row select{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+}
+.controls .exchange{
+    color: #9f9f9f;
+    font-size: 16px;
+    cursor: pointer;
+
+
+}
+.container button{
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    background:#5372f0
+
+}
+
+footer {
+    background-color: #0c0c0c;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+}
+
+footer p {
+    color: #f82f2f;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.media-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-buttons .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444;
+    font-size: 18px;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin: 0 8px;
+    text-decoration: none;
+}
+
+.media-buttons .link:hover {
+    opacity: 0.8;
+}
